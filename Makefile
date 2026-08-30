@@ -16,7 +16,7 @@ main.hex: main.elf
 	$(OBJCOPY) -O ihex -R .eeprom $< $@
 
 flash: main.hex
-	$(AVRDUDE) -c arduino -p m328p -P COM39 -b 115200 -U flash:w:$<
+	$(AVRDUDE) -c arduino -p m328p -P COM6 -b 115200 -U flash:w:$<
 
 clean:
 	rm -f main.elf main.hex

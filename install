@@ -1,0 +1,6 @@
+pacman -S --needed mingw-w64-ucrt-x86_64-avr-toolchain mingw-w64-ucrt-x86_64-avrdude
+pacman -S --needed \
+    mingw-w64-ucrt-x86_64-gcc \
+    mingw-w64-ucrt-x86_64-make
+unalias make
+
