@@ -4,3 +4,7 @@ pacman -S --needed \
     mingw-w64-ucrt-x86_64-make
 unalias make
 
+alias avr-gcc="/ucrt64/bin/avr-gcc"
+alias avr-objcopy="/ucrt64/bin/avr-objcopy"
+alias avrdude="/ucrt64/bin/avrdude"
+
